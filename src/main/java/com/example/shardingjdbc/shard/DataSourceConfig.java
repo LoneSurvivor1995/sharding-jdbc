@@ -15,9 +15,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by wuwf on 17/4/19.
- */
+// 数据源配置
 @Configuration
 public class DataSourceConfig {
     @Bean
@@ -57,7 +55,7 @@ public class DataSourceConfig {
     private static DataSource createDataSource(final String dataSourceName) {
         //使用druid连接数据库
         DruidDataSource result = new DruidDataSource();
-//        result.setDriverClassName(Driver.class.getName());
+        //result.setDriverClassName(Driver.class.getName());
         result.setDriverClassName("com.mysql.cj.jdbc.Driver");
         result.setUrl(String.format("jdbc:mysql://localhost:3306/%s?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC", dataSourceName));
         result.setUsername("root");

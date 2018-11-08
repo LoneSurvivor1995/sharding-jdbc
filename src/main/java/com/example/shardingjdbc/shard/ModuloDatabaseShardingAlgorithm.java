@@ -7,9 +7,7 @@ import com.google.common.collect.Range;
 import java.util.Collection;
 import java.util.LinkedHashSet;
 
-/**
- * Created by wuwf on 17/4/19.
- */
+// 分库算法
 public class ModuloDatabaseShardingAlgorithm implements SingleKeyDatabaseShardingAlgorithm<Long> {
 
     @Override

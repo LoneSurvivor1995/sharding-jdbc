@@ -1,4 +1,4 @@
-package com.example.shardingjdbc.common;
+package com.example.shardingjdbc.shard;
 
 import org.springframework.data.repository.CrudRepository;
 

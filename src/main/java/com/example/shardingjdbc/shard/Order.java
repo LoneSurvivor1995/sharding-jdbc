@@ -1,4 +1,4 @@
-package com.example.shardingjdbc.common;
+package com.example.shardingjdbc.shard;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

@@ -1,4 +1,4 @@
-package com.example.shardingjdbc.common;
+package com.example.shardingjdbc.shard;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.dangdang.ddframe.rdb.sharding.api.ShardingDataSourceFactory;
@@ -7,7 +7,6 @@ import com.dangdang.ddframe.rdb.sharding.api.rule.ShardingRule;
 import com.dangdang.ddframe.rdb.sharding.api.rule.TableRule;
 import com.dangdang.ddframe.rdb.sharding.api.strategy.database.DatabaseShardingStrategy;
 import com.dangdang.ddframe.rdb.sharding.api.strategy.table.TableShardingStrategy;
-import com.mysql.jdbc.Driver;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
